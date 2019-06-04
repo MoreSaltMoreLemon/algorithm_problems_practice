@@ -1,5 +1,5 @@
-import * as R from "ramda";
-
+// not a working solution yet. 
+// revisit later
 var permute = function(nums, i = 0) {};
 
 // [a, b, c, d]
@@ -16,8 +16,6 @@ function sequences(arr) {
   for (let i = 1; i < arr.length; i++) {
     const ai = arr.slice()
     for (let j = arr.length - 1; j > i; j--) {
-      
-
     }
   }
 }
